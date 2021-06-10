@@ -1,0 +1,124 @@
+body {
+	background: #EFF2FB;
+}
+/****************TOPO DO SITE****************/
+header { border: 0px solid black;
+	margin: -8px;
+ background: url('fundo.png')repeat-x;
+height: 158px;
+}
+
+#topo { border: 0px solid red;
+width: 1200px;
+height: 42px;}
+
+#logo { position: relative;
+	left: 120px;
+	top:40px;
+}
+
+#links { border: 0px solid red;
+	width: 600px;
+	float: right;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	bottom: 0px;
+}
+
+#links li { list-style-type: none; }
+
+#links a {text-decoration: none;
+color:#BF6A03;}
+
+#links a:hover { text-decoration: underline;
+color:#018E16;}
+/****************NAVEGAÇÃO DO SITE****************/
+#seção1 {border: 0px solid red;
+width: 85%;
+height: 30%;
+margin-top: -60px;
+margin-bottom: 20px;
+display: flex;
+position: relative;
+	left: 8%;
+}
+
+#item1 { background-repeat: no-repeat;
+flex-grow: 10;
+
+}
+#aside {border: 1px solid red;}
+#item2 {background-repeat: no-repeat;
+
+}
+/****************SEÇÃO2****************/
+#seção2 {border:0px solid red;
+width: 53%;
+display: flex;
+flex-direction: row;
+
+position: relative;
+left: 8%;}
+#item3 {border: 0px solid blue;
+margin-right: 20px;}
+#seção2 h3 { color:#018E16; }
+#seção2 a { color:#BF6A03;
+text-decoration: none; }
+#seção2 a:hover { color:#BF6A03;
+text-decoration: underline; }
+/****************LATERAIS****************/
+aside { border: 0px solid red; 
+width: 26%;
+display: flex;
+flex-direction: column;
+position: absolute;
+left: 67%;
+bottom: 0%;
+top: 75%;
+
+}
+#lat1 {background: #A4A4A4;
+ margin: 0px;
+padding: 20px;}
+aside h3 {color:#BF6A03;}
+.submit input { padding: 10px 55px;
+	margin-top: 15px;
+font-size: 20px; 
+color:white;
+background:#A97F1C;
+cursor: pointer;
+border: none;
+ }
+ #lat2 {border: 1px solid red;
+ 	background:#D8D8D8;
+ margin: 0px;
+padding: 20px;
+float: left;
+flex-wrap: wrap;
+
+}
+#lat2 .imagem {border: 0px solid red;
+ 	width: 126px;
+ 	height: 133px;
+ 	margin: 5px 12px;
+ 	background: url('fundo-foto.png')center;
+ 	float: left;
+ 	}
+ 	#lat2 img { margin: 18px;
+ 	}
+ 	footer { display: flex;
+ 		justify-content: center;
+ 		align-items: center;
+ 		flex-direction: column;
+ 	position: relative;
+ 	bottom: 0%;
+ 		border: 0px solid red;
+ 		text-align: center;
+ 		width: 100%;
+ 		background: #E6E6E6;
+ 	}
+ 	footer a {text-decoration: none;
+color:#BF6A03;}
+ footer a:hover {text-decoration: underline;
+color:#018E16;}
